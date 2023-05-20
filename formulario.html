@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h2>Inscripción programa de Desarrolo Web</h2>
+<h3>Complete el siguiente fomulario para ingresar al programa:</h3>
+<form action="formulario.html" method="get">
+    <label for="nombre"></label>
+    <input type="text" placeholder="Ingrese su nombre" id="nombre" required> <br> <br>
+    <label for="apellido"></label>
+    <input type="text" placeholder="Ingrese su apellido" id="apellido" required> <br> <br>
+    <label for="email"></label>
+    <input type="email" placeholder="Ingrese su email" id="email" required> <br> <br>
+    <select name="pais" id="pais">
+        <option value="1" disabled selected> Selecciona tu país</option>
+        <option value="2">Brasil</option>
+        <option value="3">Chile</option>
+        <option value="4">Argentina</option>
+    </select> <br> <br>
+    <label for="">¿Trabajas actualmente?</label> <br> 
+    <label for="">Si</label><input type="checkbox" value="1" name="multiple"> 
+    <br><label for="">No</label><input type="checkbox" value="2" name="multiple"> 
+    <br> <br>
+    <button type="submit">Enviar formulario</button>
+    <br> <br>
+    <button type="reset"> Limpiar formulario</button>
+
+</form>
+</body>
+</html>
